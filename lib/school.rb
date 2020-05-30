@@ -26,3 +26,4 @@ class School
   hash
 end
 end
+end
