@@ -22,7 +22,7 @@ class School
     self.roster.each do |level, students|
       students.sort!
     end
-    
+
 
   end
 end
