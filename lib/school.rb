@@ -19,9 +19,10 @@ class School
   end
 
   def sort
-    student_level = {}
-    roster.each do |student, level|
-    student_level[student] = level.sort
+    self.roster.each do |level, students|
+      students.sort!
+    end
+    
 
   end
   student_level
