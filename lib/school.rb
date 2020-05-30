@@ -19,8 +19,8 @@ class School
   end
 
   def sort
-  roster.sort_by do |x, y|
-    X
+  roster.each do |x, y|
+    value.sort!
   end
 end
 end
