@@ -18,12 +18,12 @@ class School
     end
   end
 
-  def sort
-    hash = {}
-    roster.each do |x, y|
-      hash[x] = y.sort
-    end
-  hash
+  def sort 
+  nu_hash = {}
+  roster.each do |x, y| 
+    nu_hash[x] = y.sort 
+  end 
+  nu_hash
 end
 end
 end
