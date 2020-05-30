@@ -19,7 +19,7 @@ class School
   end
 
   def sort
-    student_level = {}
+    student_level = []
     roster.each do |student, level|
     student_level[student] = level.sort
 
