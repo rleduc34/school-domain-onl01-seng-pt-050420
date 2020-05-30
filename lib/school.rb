@@ -6,17 +6,15 @@ class School
   @roster = {}
   end
 
-  def add_student (student, level)
-  roster[level] ||= []
-  roster[level] << student
+  def add_student (name, grade)
+  roster[grade] ||= []
+  roster[grade] << name
   end
 
-  def grade (level)
-  roster.detect do |x, y|
-    if x == level
-      return y
+    def grade(grade)
+      @roster[grade]
     end
-  end
+
 
   def sort
   @roster.each do |key, value|
