@@ -25,7 +25,6 @@ class School
     
 
   end
-  student_level
 end
 end
 end
